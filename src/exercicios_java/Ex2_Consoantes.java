@@ -11,6 +11,7 @@ public class Ex2_Consoantes {
 
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 
         String[] consoantes = new String[6];
