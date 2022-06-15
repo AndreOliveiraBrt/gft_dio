@@ -3,7 +3,7 @@ package exercicios_java;
 public class Ex1_OrdemInversa {
 	
 	/*
-	Crie um vetor de 6 números inteiros
+	Crie um vetor de 6 nÃºmeros inteiros
 	e mostre-os na ordem inversa.
 	*/
 
@@ -16,6 +16,8 @@ public class Ex1_OrdemInversa {
 	        while(count < (vetor.length)) {
 	            System.out.print(vetor[count] + " ");
 	            count++;
+			 System.out.print(count);
+			
 	        }
 	        
 	     System.out.print("\nVetor: ");
